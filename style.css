@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background-color: #3B5998;
+   
+}
+.header::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.container{
+    width: 65%;
+    margin:auto;
+    max-width: 1000px;
+}
+.logo{
+    width:30% ;
+    float: left;
+
+}
+.logo img{
+   width: 160px; 
+   margin-top: 20px;
+}
+.log-in{
+    width: 70%;
+    float: left;
+    color: white;
+}
+.log-in form{
+    float: right;
+}
+.log-in label{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+
+}
+.log-in input{
+    display: block;
+}
+.log-in .email,
+.log-in .password,
+.log-in .login
+{
+    float: left;
+    margin-right:15px ;
+}
+.log-in .login{
+    margin-right:0;
+}
+.log-in input[type="text"],
+.log-in input[type="password"]{
+    border: 1px solid black;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 2px 5px;
+}
+.log-in .password a{
+    text-decoration: none;
+    color: #9cb4d8;
+    font-size: 12px;
+}
+.log-in .password a:hover{
+    text-decoration: underline;
+}
+.log-in input[type="submit"]{
+    background-color: #4267b2;
+    border:1px solid #29487d;
+    color: white;
+    padding: 3px 8px;
+    font-weight: 400;
+    margin-top: 26px;
+} 
+.middle{
+    padding: 20px 0;
+    background:linear-gradient(#ffffff,#E1E5F0) ;
+}
+.middle::after{
+    content: '';
+    clear: both;
+    display: block;
+} 
+.leftarea{
+    width: 55%;
+    float: left;
+}
+.leftarea p{
+    font-size: 20px;
+    color: #0e385f ;
+    font-weight: 600;
+    width: 90%;
+}
+,.leftarea img{
+    width: 100%;
+}
+.rightarea{
+    width: 45%;
+    float: left;
+}
+
+.rightarea h2{
+  font-size: 33px; 
+  color: #333; 
+  margin: 0;
+}
+.rightarea h4{
+    font-size: 19px;
+    color: #1d2129;
+    font-weight: 400;
+    margin-top: 5 px;
+    margin-bottom: 10px;
+}
+.rightarea input[type="text"],
+.rightarea input[type="password"]{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px ;
+    padding: 8px 10px;
+    font-size: 18px;
+    margin: 5px 0;
+}
+.fullname{
+    overflow: hidden;
+}
+.firstname{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+.surname{
+    width: 48%;
+    float: left;
+}
+.birthday{
+    overflow: hidden;
+}
+.birthday h4{
+   margin-top: 0;
+   margin-bottom: 5px;
+
+}
+.birthdate{
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+    
+}
+.birthdate select{
+    border: 1px solid #ccc;
+    padding: 5px;
+    float: left;
+}
+
+.gender{
+    margin:10px 0 ;
+}
+.gender label{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d2129;
+}
+.textbox{
+    margin-bottom: 20px;
+}
+.textbox p{
+    font-size: 13px;
+    color:#777;
+    width: 80%;
+}
+.textbox a{
+   text-decoration: none; 
+   color: #365899;
+}
+.textbox a:hover{
+    text-decoration: underline;
+}
+.btn{
+    margin-bottom: 30px;
+}
+.btn input{
+    background:linear-gradient(#67ae55,#578843);
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: yellowgreen;
+    border-style: solid;
+    padding: 7px 14px;
+    min-width: 194px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.btn input:hover{
+    background:linear-gradient(#578843,#67ae55); 
+    cursor: pointer;
+}
+.page{
+   font-weight: 600;
+   color: #666; 
+}
+.page a{
+    text-decoration: none;
+    color: #365899;
+}
+.page a:hover{
+    text-decoration: underline;
+}
+.footer{
+    padding: 30px 0;
+}
+.footer ul{
+    margin: 0;
+    padding: 0;
+}
+.footer ul li {
+    display: inline;
+    
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #365899 ;
+    font-size: 13px;
+}
+.footer ul li a:hover{
+text-decoration: underline;
+}
+.footer ul li .active a{
+    color: #737373;
+}
+.footer span{
+    color: #737373;
+    font-size: 13px;
+}
+.footer .top  ul li{
+    margin-right: 5px;
+
+}
+.footer .mid  ul li{
+    margin-right: 10px;
+}
+.footer .top ul li:last-child{
+    border: 1px solid #999;
+    padding: 0px 6px;
+    font-size: 20px;
+}
+.footer hr{
+    border: 0;
+    border-radius: 1px solid #d4d4d4;
+}
+.footer .top ul li:last-child,
+.footer .mid ul li:last-child{
+    margin-right: 0;
+}
+.footer .bottom{
+    margin-top: 25px;
+}
